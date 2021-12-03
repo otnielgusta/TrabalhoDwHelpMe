@@ -4,6 +4,7 @@
         private $nome;
         private $sobrenome;
         private $email;
+        private $foto;
         private $cidade;
 /*
         public function __construct($idcliente, $nome, $sobrenome,  $email, $cidade) {
@@ -13,7 +14,17 @@
             $this->email = $email;
             $this->cidade = $cidade;
         }
-*/
+*/  
+
+        public function setCliente($cliente){
+            $daocidade = new DAOCidade();
+            $this->idCliente = $cliente['idCliente'];
+            $this->nome = $cliente['nome'];
+            $this->sobrenome = $cliente['sobrenome'];
+            $this->email = $cliente['email'];
+            $this->foto = $cliente['foto'];
+            $this->cidade = $daocidade->listaPorId($cliente['idCidade']);
+        }
         public function setIdCliente($id){
             $this->idCliente = $id;
         }
@@ -29,6 +40,10 @@
         public function setCidade(Cidade $cidade){
             $this->cidade = $cidade;
         }
+        public function setFoto( $foto){
+            $this->foto = $foto;
+        }
+
 
         public function getIdcliente():int{
             return $this->idCliente;
@@ -44,6 +59,9 @@
         }
         public function getCidade():Cidade{
             return $this->cidade;
+        }
+        public function getFoto():string{
+            return $this->foto;
         }
 
         public function toString(){

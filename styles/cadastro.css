@@ -1,4 +1,3 @@
-
 .tudo{
     
     width: 100%;
@@ -33,28 +32,29 @@ header button{
 
 }
 
-.input-link{
-    width: 0px;
-    height: 0px;
-    background-color: transparent;
-    border: none;
-    
+.form{
+   display: grid;
+   grid-gap: 10px; 
+   
 }
 
-.subtitulo label{
-    font-size: 14px;
+.form label, select, input{
+    font-family: inherit;
+}
+.form label{
+    font-size: 12px;
 
 }
-
-.subtitulo .link{
-    color: #896CEA;
-    background: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
+.div-form{
+    display: grid;
 }
+.estado{
+    color: #000;
+}
+select{
+    height: 40px;
+}
+
 
 form .subtitulo{
     text-align: center;
@@ -79,6 +79,7 @@ form label{
 
 form input{
     height: 30px;
+
   
 }
 
@@ -93,14 +94,6 @@ form input:focus{
     border-color: #896CEA;
 }
 
-.cadastrou{
-    color: #896CEA;
-    margin: 5px;
-    line-height: 12px;
-    font-size: 14px;
-    flex-wrap: wrap;
-}
-
 form button{
     margin-top: 30px;
     width: 100%;
@@ -108,7 +101,6 @@ form button{
     background-color: #896CEA;
     color: #fff;
     border: none;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
