@@ -1,0 +1,167 @@
+.tudo{
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 50px;
+    background-color: #121214 ;
+    color: #737380;
+}
+
+.resumo-corpo{
+    width: 100%;
+    display: grid;
+    
+}
+
+.resumo-corpo h1{
+    text-align: center;
+}
+
+.resumo-corpo .resumo-meio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resumo-corpo .dados-consulta{
+    margin: 20px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.resumo-corpo .dados-consulta p{
+    margin: 0;
+    
+}
+
+.resumo{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 200px;
+    row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: 60%;
+}
+
+
+
+.resumo .consulta{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #202024;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(102, 102, 102, 0.6);    
+
+}
+.resumo .consulta .foto-consulta-box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumo .consulta .foto-consulta{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    border-radius: 200px;
+    border: 4px solid #896CEA;
+    
+
+}
+
+.resumo .consulta .horario{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resumo .consulta .nome-profissional{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.resumo .consulta .profissao{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.resumo .consulta .dados-consulta-botao{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resumo .consulta .remarca-deleta-opcoes{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.resumo .consulta .remarca-deleta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.resumo .consulta .remarca-deleta .form-remarca button{
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/img/canetaCinza.png");
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: transparent;
+
+    border: none;
+    cursor: pointer;
+  
+}
+
+.resumo .consulta .remarca-deleta button:hover{
+    transition: .4s;    
+    background-image: url("../assets/img/caneta.png");
+    background-color: #141316;
+  
+}
+
+
+.resumo .consulta .remarca-deleta .form-deleta button{
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/img/remover.png");
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: transparent;
+
+    border: none;
+    cursor: pointer;
+  
+}
+
+.resumo .consulta .remarca-deleta .form-deleta button:hover{
+    transition: .4s;    
+    background-image: url("../assets/img/remover.png");
+    background-color: #141316;
+  
+}

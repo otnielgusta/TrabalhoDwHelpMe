@@ -1,0 +1,123 @@
+
+.tudo{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #121214;
+    color: #fff;
+}
+.corpo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 50px 50px 0 0;
+}
+
+header button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url("../assets/img/close1.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+
+}
+
+.input-link{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.subtitulo label{
+    font-size: 14px;
+
+}
+
+.subtitulo .link{
+    color: #896CEA;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form .subtitulo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.corpo h1{
+    text-align: center;
+}
+
+form label{
+    color: #fff;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+
+form input{
+    height: 30px;
+  
+}
+
+form label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+form input:active,
+form input:focus{
+    
+    border-color: #896CEA;
+}
+
+.cadastrou{
+    color: #896CEA;
+    margin: 5px;
+    line-height: 12px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+form button{
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    background-color: #896CEA;
+    color: #fff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+form button:hover{
+    transition: 0.5s;
+    background-color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    color:#896CEA ;
+    cursor: pointer;
+}
